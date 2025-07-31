@@ -1,32 +1,38 @@
-/*  your css code here. If applicable */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-}
-
-.testimonial-section {
   background-color: #f5f5f5;
-  padding: 40px;
 }
 
-.testimonial-section h2 {
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+h2 {
   font-size: 24px;
-  margin-bottom: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
-.testimonial {
-  background-color: white;
-  border: 1px solid #ddd;
-  padding: 15px 20px;
+.testimonial-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 16px 20px;
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
-.testimonial p {
+.quote {
   margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.testimonial .author {
+.author {
+  margin: 0;
+  margin-top: 10px;
   text-align: right;
   font-style: italic;
-  margin-top: 10px;
 }
