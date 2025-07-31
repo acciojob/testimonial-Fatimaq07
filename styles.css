@@ -22,19 +22,19 @@ h2 {
 .testimonial-box {
   background-color: #fff;
   border: 1px solid #ccc;
-  padding: 10px 14px; /* Reduced padding */
+  padding: 15px 14px; /* Reduced padding */
   margin-bottom: 12px; /* Reduced spacing */
   box-sizing: border-box;
-  width: 100%;
+  width: 115%;
 }
 
 .quote {
-  font-size: 14px;     /* Smaller text */
-  margin: 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+      margin: 0;
+      font-size: 14px;
+      white-space: nowrap;
+      overflow: visible;         /* Let it expand */
+      text-overflow: unset;      /* No ellipsis */
+    }
 
 .author {
   font-size: 12px;
