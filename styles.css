@@ -5,8 +5,8 @@ body {
 }
 
 .container {
-  width: 600px;
-  margin: 50px auto;
+  width: 580px;
+  margin: 55px auto;
 }
 
 h2 {
@@ -14,20 +14,20 @@ h2 {
   font-weight: bold;
   margin-bottom: 30px;
 }
-
 .testimonial-box {
   background-color: #fff;
   border: 1px solid #ccc;
   padding: 16px 20px;
   margin-bottom: 20px;
   box-sizing: border-box;
+  width: 800px; /* Adjust this value as needed */
 }
 
 .quote {
   margin: 0;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow: visible;
+  
 }
 
 .author {
